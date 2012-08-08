@@ -1,0 +1,179 @@
+html, body {
+	height: 100%;
+}
+
+.login {
+	max-width: 20em;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+
+.storyversion > * {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrap {
+	/* prevent margins from transcending wrap */
+	display: inline-block;
+
+	width: 100%;
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: Georgia;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #444;
+	text-align: center;
+	font-weight: normal;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.date {
+	font-size: 75%;
+	max-width: 26.66em;
+}
+
+p {
+	text-align: left;
+	max-width: 20em;
+}
+
+.maintop {
+	position: relative;
+	height: 20em;
+}
+
+.maintopbottom {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.maintopbottom, .maintopbottom img {
+	max-width: 100%;
+	max-height: 17em;
+}
+
+.maintitle {
+	font-size: 300%;
+	text-align: center;
+	margin: 0 auto;
+	color: #444;
+}
+
+.hidden {
+	visibility: hidden;
+	position: static ! important;
+}
+
+.undisplayed {
+	display: none;
+}
+
+.bottom {
+	margin-top: 1em;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #444;
+	color: white;
+}
+
+.about {
+	width: 26.7em;
+	font-size: 75%;
+	margin: 0 auto 0 auto;
+	padding: 1.33em;
+	text-align: left;
+}
+
+.item {
+	width: 24em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.itemtext {
+	padding: 0 2em 0 0;
+	float: right;
+	width: 20em;
+}
+
+.itemdate {
+	margin-left: 2.66em;
+	font-size: 75%;
+}
+
+.itemlangs {
+	float: left;
+	width: 1.66em;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.itemlang {
+	display: inline-block;
+}
+
+.norsk {
+	background-color: red;
+	width: 24px;
+	display: inline-block;
+	margin-top: 6px;
+	height: 15px;
+}
+
+.deutsch {
+	background-color: orange;
+	border-top: 5px solid black;
+	border-bottom: 5px solid red;
+	height: 5px;
+	width: 24px;
+	display: inline-block;
+}
+
+.polski {
+	background-color: white;
+	border-bottom: 7px solid red;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #f88;
+	border-right: 1px solid #f88;
+	height: 7px;
+	width: 22px;
+	display: inline-block;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.itemtitle {
+	margin: 0;
+	font-size: 120%;
+	text-align: left;
+}
+
+.itemtitle + p {
+	margin-top: 0;
+}
+
+a:link {
+	color: gray;
+}
+
+a:visited {
+	color: #444;
+}
